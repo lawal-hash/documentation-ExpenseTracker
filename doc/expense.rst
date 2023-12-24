@@ -1,4 +1,4 @@
-expense module
+expense
 ==============
 
 .. automodule:: src.expense

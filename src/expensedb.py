@@ -1,6 +1,6 @@
 import logging
 from typing import Dict, List
-from expense import Expense
+from .expense import Expense
 
 
 class ExpenseDatabase:
@@ -41,7 +41,7 @@ class ExpenseDatabase:
         if isinstance(expense_id, str):
             self.expenses = [
                 expense for expense in self.expenses if expense.id != expense_id
-            ] 
+            ]
             print(f"Expense ID: {expense_id} successfully removed from ExpenseDatabase")
         else:
             logging.error("TypeError: expense_id must be str, not %s", type(expense_id))
