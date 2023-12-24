@@ -1,14 +1,21 @@
-.. Example documentation master file, created by
-   sphinx-quickstart on Sat Sep 23 20:35:12 2023.
+.. ExpenseTracker documentation master file, created by
+   sphinx-quickstart on Sun Dec 24 16:36:54 2023.
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Welcome to Example's documentation!
-===================================
+Welcome to ExpenseTracker's documentation!
+==========================================
 
 .. toctree::
    :maxdepth: 2
    :caption: Contents:
 
-   some-feature.md
-   another-feature.md
+   modules
+
+
+Indices and tables
+==================
+
+* :ref:`genindex`
+* :ref:`modindex`
+* :ref:`search`
